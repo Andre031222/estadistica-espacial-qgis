@@ -1,53 +1,65 @@
 # Estadística Espacial con QGIS
 
-> **Práctica Calificada 1** · Universidad Nacional del Altiplano — Puno
+<p align="center">
+  <b>Práctica Calificada 1</b><br>
+  Instalación de QGIS · Capa ráster · Capa vectorial
+</p>
 
 ## Objetivo
 
-Documentar la instalación y el uso inicial de **QGIS** para trabajar con datos espaciales, diferenciando una capa ráster de una capa vectorial.
+Documentar la instalación y el uso inicial de **QGIS Desktop** para el análisis espacial, identificando las diferencias entre información ráster y vectorial.
 
 ## Entorno de trabajo
 
-| Elemento | Detalle |
+| Componente | Implementación |
 |---|---|
-| Software SIG | QGIS Desktop |
-| Sistema de referencia | EPSG:4326 / EPSG:3857 |
-| Capa ráster | Teselas OpenStreetMap (XYZ) |
-| Capa vectorial | Capa temporal de puntos |
+| Sistema de Información Geográfica | QGIS Desktop |
+| Capa ráster | OpenStreetMap Raster mediante teselas XYZ |
+| Capa vectorial | Capa temporal de geometría de puntos |
+| Sistemas de referencia | EPSG:4326 y EPSG:3857 |
 
-## Evidencias
+---
+
+## Evidencias de la práctica
 
 ### 1. Instalación de QGIS
 
-La aplicación QGIS se encuentra instalada y operativa en el equipo.
+QGIS fue instalado correctamente y se verificó su ejecución mediante la creación de un proyecto nuevo.
 
-### 2. Capa ráster
+![Evidencia de instalación de QGIS](./instalacion_qgis.png)
 
-Se agregó una capa de teselas **OpenStreetMap Raster** mediante una conexión XYZ. Este tipo de información se representa como una cuadrícula de píxeles o celdas.
+### 2. Capa ráster — OpenStreetMap Raster
 
-### 3. Capa vectorial
+Se incorporó una capa ráster a través de una conexión XYZ a OpenStreetMap. La información ráster se representa en celdas o píxeles y permite visualizar una base cartográfica continua.
 
-Se creó la capa **Capa_Vectorial_Punto**, que representa entidades geográficas discretas mediante geometrías de puntos.
+![Evidencia de capa ráster en QGIS](./capa_raster.png)
 
-## Reproducibilidad
+### 3. Capa vectorial — Puntos
 
-1. Abrir QGIS Desktop.
-2. Para la capa ráster: ir a **Capa → Añadir capa → Añadir capa XYZ** y usar OpenStreetMap.
-3. Para la capa vectorial: ir a **Capa → Crear capa → Nueva capa temporal** y elegir geometría de punto.
-4. Registrar al menos una entidad en el lienzo del mapa.
+Se creó la capa **Capa_Vectorial_Punto** y se registraron entidades puntuales. Las capas vectoriales representan objetos geográficos mediante geometrías, tales como puntos, líneas o polígonos.
 
-## Estructura del repositorio
+![Evidencia de capa vectorial en QGIS](./capa_vectorial.png)
 
-```text
-.
-├── README.md
-└── evidencias/
-    ├── instalacion_qgis.png
-    ├── capa_raster.png
-    └── capa_vectorial.png
-```
+---
+
+## Procedimiento reproducible
+
+1. Abrir **QGIS Desktop** y crear un proyecto nuevo.
+2. Agregar la capa ráster con **Capa → Añadir capa → Añadir capa XYZ**.
+3. Crear la capa vectorial con **Capa → Crear capa → Nueva capa temporal**.
+4. Seleccionar geometría de punto y añadir una entidad sobre el mapa.
+5. Guardar las evidencias del procedimiento.
+
+## Archivos del repositorio
+
+| Archivo | Descripción |
+|---|---|
+| `instalacion_qgis.png` | QGIS instalado y funcionando |
+| `capa_raster.png` | Evidencia de la capa ráster OpenStreetMap |
+| `capa_vectorial.png` | Evidencia de la capa vectorial de puntos |
 
 ---
 
 **Autor:** Richar Andre Vilca Solorzano  
-**Curso:** Estadística Espacial
+**Curso:** Estadística Espacial  
+**Universidad Nacional del Altiplano — Puno**
