@@ -32,13 +32,13 @@ QGIS fue instalado correctamente y se verificó su ejecución mediante la creaci
 
 Se incorporó una capa ráster a través de una conexión XYZ a OpenStreetMap. La información ráster se representa en celdas o píxeles y permite visualizar una base cartográfica continua.
 
-![Evidencia de capa ráster en QGIS](./capa_raster.png)
+![Evidencia de capa ráster en QGIS](./capa_raster_mejorada.png)
 
 ### 3. Capa vectorial — Puntos
 
-Se creó la capa **Capa_Vectorial_Punto** y se registraron entidades puntuales. Las capas vectoriales representan objetos geográficos mediante geometrías, tales como puntos, líneas o polígonos.
+Se creó y configuró la capa **Capa_Vectorial_Punto**. Las capas vectoriales representan objetos geográficos mediante geometrías, tales como puntos, líneas o polígonos.
 
-![Evidencia de capa vectorial en QGIS](./capa_vectorial.png)
+![Evidencia de capa vectorial en QGIS](./capa_vectorial_mejorada.png)
 
 ---
 
@@ -55,8 +55,8 @@ Se creó la capa **Capa_Vectorial_Punto** y se registraron entidades puntuales. 
 | Archivo | Descripción |
 |---|---|
 | `instalacion_qgis.png` | QGIS instalado y funcionando |
-| `capa_raster.png` | Evidencia de la capa ráster OpenStreetMap |
-| `capa_vectorial.png` | Evidencia de la capa vectorial de puntos |
+| `capa_raster_mejorada.png` | Evidencia de la capa ráster OpenStreetMap |
+| `capa_vectorial_mejorada.png` | Evidencia de la capa vectorial de puntos |
 
 ---
 
